@@ -47,7 +47,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Point to the build output directory
-          path: './build/' # Update this if your build output is in a different directory
+          path: '.' # Update this if your build output is in a different directory
 
       - name: Deploy to GitHub Pages
         id: deployment
