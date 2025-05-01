@@ -1,5 +1,4 @@
 import React from 'react';
-import { CodeBracketIcon, EyeIcon } from '@heroicons/react/24/outline';
 
 const Projects = () => {
   const projects = [
@@ -50,4 +49,4 @@ const Projects = () => {
   );
 };
 
-export default Projects; 
+export default Projects;
