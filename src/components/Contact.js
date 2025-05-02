@@ -53,7 +53,7 @@ const Contact = () => {
             <h3 className="text-2xl font-bold text-primary mb-6 text-center">Connect With Me</h3>
             <div className="flex justify-center space-x-8">
               <a
-                href="https://linkedin.com/in/[your-profile]"
+                href="https://linkedin.com/in/aishanee-sinha-452101142/"
                 target="_blank"
                 rel="noreferrer"
                 className="group flex items-center space-x-2 text-primary hover:text-secondary transition-colors duration-300"
@@ -64,7 +64,7 @@ const Contact = () => {
                 <span>LinkedIn</span>
               </a>
               <a
-                href="https://github.com/[your-username]"
+                href="https://github.com/aishanee-sinha"
                 target="_blank"
                 rel="noreferrer"
                 className="group flex items-center space-x-2 text-primary hover:text-secondary transition-colors duration-300"
@@ -75,7 +75,7 @@ const Contact = () => {
                 <span>GitHub</span>
               </a>
               <a
-                href="mailto:[your-email]@sjsu.edu"
+                href="mailto:aishanee.sinha@sjsu.edu"
                 className="group flex items-center space-x-2 text-primary hover:text-secondary transition-colors duration-300"
               >
                 <svg className="w-6 h-6 group-hover:text-secondary" fill="currentColor" viewBox="0 0 24 24">
