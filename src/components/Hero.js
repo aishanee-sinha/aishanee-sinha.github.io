@@ -11,7 +11,7 @@ const Hero = () => {
           Aishanee Sinha
         </h1>
         <h2 className="text-3xl sm:text-6xl font-bold text-darkText mb-6">
-          Data Analytics Graduate Student
+          Data Scientist
         </h2>
         <p className="text-darkText text-lg max-w-2xl mb-8">
           I'm a Data Analytics student at San Jose State University, passionate about transforming raw data into actionable insights. 

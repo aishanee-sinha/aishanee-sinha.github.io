@@ -8,9 +8,8 @@ const About = () => {
         
         <div className="mt-8 grid gap-8">
           <p className="text-darkText">
-            As a graduate student in Data Analytics at San Jose State University, I am developing expertise in 
-            advanced statistical methods, machine learning algorithms, and data visualization techniques. My academic 
-            journey is focused on turning complex datasets into clear, actionable insights that drive business decisions.
+            As a Data Scientist with expertise in advanced statistical methods, machine learning algorithms, and data visualization techniques, I am passionate about 
+            turning complex datasets into clear, actionable insights that drive business decisions.
           </p>
 
           <div>
