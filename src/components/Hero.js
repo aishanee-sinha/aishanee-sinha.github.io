@@ -11,11 +11,11 @@ const Hero = () => {
           Aishanee Sinha
         </h1>
         <h2 className="text-3xl sm:text-6xl font-bold text-darkText mb-6">
-          Data Scientist
+          Data Scientist & AI Specialist
         </h2>
         <p className="text-darkText text-lg max-w-2xl mb-8">
-          I'm a Data Analytics student at San Jose State University, passionate about transforming raw data into actionable insights. 
-          Specializing in machine learning, statistical analysis, and data visualization to solve complex business problems.
+          Architecting AI/ML solutions that drive business impact. 4+ years building predictive models, RAG systems, and autonomous agents. 
+          Passionate about transforming complex challenges into streamlined automation and driving measurable value through data-driven insights.
         </p>
         
         <div className="flex gap-4">

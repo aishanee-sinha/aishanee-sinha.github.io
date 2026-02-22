@@ -8,8 +8,7 @@ const About = () => {
         
         <div className="mt-8 grid gap-8">
           <p className="text-darkText">
-            As a Data Scientist with expertise in advanced statistical methods, machine learning algorithms, and data visualization techniques, I am passionate about 
-            turning complex datasets into clear, actionable insights that drive business decisions.
+            Data Scientist and Generative AI Specialist with 4+ years of experience architecting machine learning and AI-driven solutions that deliver measurable business impact. Proven expertise in transforming complex challenges into streamlined automation through predictive modeling in financial services (fraud mitigation, portfolio analytics), deploying production-ready RAG systems and autonomous agents. Strong track record of engineering solutions that have driven $800k+ in value creation and efficiency gains (80% process improvements). Expert in bridging advanced technical capabilities (Python, Scikit-learn, LLMs, PySpark, fine-tuning) with strategic business outcomes (A/B testing, KPI optimization, revenue uplift). MS in Applied Data Intelligence. Passionate about leveraging cutting-edge AI/ML technologies to solve business bottlenecks and drive executive-level insights.
           </p>
 
           <div>
