@@ -35,9 +35,9 @@ const WorkEx = () => (
         {experiences.map((exp, idx) => (
           <div key={idx} className="bg-secondary rounded-lg p-6 shadow-lg">
             <h3 className="text-2xl font-bold text-primary mb-2">{exp.company}</h3>
-            <div className="text-lg text-lightText mb-1">{exp.role}</div>
+            <div className="text-lg font-bold text-primary mb-1">{exp.role}</div>
             <div className="text-sm text-primary mb-4">{exp.period}</div>
-            <ul className="list-disc list-inside text-primary space-y-2">
+            <ul className="list-disc list-inside text-black space-y-2">
               {exp.highlights.map((item, i) => (
                 <li key={i}>{item}</li>
               ))}

@@ -248,7 +248,7 @@ const Projects = () => {
 									project.title
 								)}
 							</h3>
-							<p className="text-primary mb-4">{project.description}</p>
+							<p className="text-black mb-4">{project.description}</p>
 							<div className="flex flex-wrap gap-2">
 								{project.technologies.map((tech, techIndex) => (
 									<span
