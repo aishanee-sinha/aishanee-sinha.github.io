@@ -198,7 +198,7 @@ const projects = [
 	
 	{
 		title: 'Airline Delay Analysis',
-		link: '',
+		link: 'https://github.com/Nandha951/DATA-228-Big-data-Airline-Delay-Analysis-and-Performance-Benchmarking',
 		description: (
 			<>
 				High-scale big data project processing 31M+ airline records to analyze delay patterns and predictive factors.
