@@ -2,48 +2,6 @@ import React from 'react';
 
 const projects = [
 	{
-		title: 'AI Travel Planning Assistant',
-		link: 'https://github.com/aishanee-sinha/AI_Travel_Assistant',
-		description: (
-			<>
-				Built a full-stack AI Travel Planning Chatbot using React.js, FastAPI, and Gemini LLMs to generate customized travel itineraries via natural language inputs.
-				<br />
-				Integrated real-time APIs for flights, hotel and weather forecasts to provide accurate, up-to-date travel suggestions and direct booking links reducing the need to switch between multiple platforms.
-				<br />
-				Deployed on Vercel and Render with features like JWT-based authentication, chat history persistence, and interactive itinerary updates, offline itinerary support delivering a seamless, all-in-one planning experience.
-			</>
-		),
-		technologies: [
-			'React.js',
-			'FastAPI',
-			'Gemini LLM',
-			'JWT',
-			'Vercel',
-			'Render',
-			'APIs',
-		],
-	},
-	{
-		title: 'Energy Demand Forecasting based on Real-time data and Weather forecasts',
-		link: 'https://github.com/aishanee-sinha/Energy_demand_forecasting',
-		description: (
-			<>
-				Developed an end-to-end data pipeline using Python, Snowflake, Airflow, dbt, Docker and Power BI to automate energy consumption forecasting, achieving 94% CO2 emissions prediction accuracy with Snowflake ML.
-				<br />
-				Orchestrated ETL/ELT workflows for real-time data extraction from EIA and Weather APIs, data transformations using dbt and visualization using Power BI.
-			</>
-		),
-		technologies: [
-			'Python',
-			'Snowflake',
-			'Airflow',
-			'dbt',
-			'Docker',
-			'Power BI',
-			'APIs',
-		],
-	},
-	{
 		title: 'Multi-Agent Autonomous Workforce Assistant',
 		link: 'https://github.com/aishanee-sinha/Multi-Agent-Autonomous-Workforce-Assistant',
 		description: (
@@ -85,23 +43,22 @@ const projects = [
 		],
 	},
 	{
-		title: 'Stock Price Prediction ETL',
-		link: 'https://github.com/aishanee-sinha/Stock-Price-Prediction-ETL',
+		title: 'Energy Demand Forecasting based on Real-time data and Weather forecasts',
+		link: 'https://github.com/aishanee-sinha/Energy_demand_forecasting',
 		description: (
 			<>
-				Developed a comprehensive ETL pipeline for collecting, processing, and analyzing stock market data.
+				Developed an end-to-end data pipeline using Python, Snowflake, Airflow, dbt, Docker and Power BI to automate energy consumption forecasting, achieving 94% CO2 emissions prediction accuracy with Snowflake ML.
 				<br />
-				Implemented machine learning models to predict stock price movements using historical data and technical indicators.
-				<br />
-				Automated data workflows for real-time data ingestion and model retraining to maintain prediction accuracy.
+				Orchestrated ETL/ELT workflows for real-time data extraction from EIA and Weather APIs, data transformations using dbt and visualization using Power BI.
 			</>
 		),
 		technologies: [
 			'Python',
-			'ETL',
-			'Machine Learning',
-			'Time Series Analysis',
-			'scikit-learn',
+			'Snowflake',
+			'Airflow',
+			'dbt',
+			'Docker',
+			'Power BI',
 			'APIs',
 		],
 	},
@@ -172,28 +129,6 @@ const projects = [
 		],
 	},
 	{
-		title: 'Airline Delay Analysis',
-		link: '',
-		description: (
-			<>
-				High-scale big data project processing 31M+ airline records to analyze delay patterns and predictive factors.
-				<br />
-				Leveraged Apache Spark for distributed data processing and AWS S3 for scalable data storage and partitioning.
-				<br />
-				Implemented efficient data pipelines to handle massive datasets while extracting actionable insights from complex aviation data.
-			</>
-		),
-		technologies: [
-			'Apache Spark',
-			'AWS S3',
-			'Big Data',
-			'Python',
-			'Data Engineering',
-			'ETL',
-			'SQL',
-		],
-	},
-	{
 		title: 'Emotion-Aware Transformer-Based Text-to-Speech System',
 		link: '',
 		description: (
@@ -215,6 +150,75 @@ const projects = [
 			'NLP',
 		],
 	},
+	{
+		title: 'AI Travel Planning Assistant',
+		link: 'https://github.com/aishanee-sinha/AI_Travel_Assistant',
+		description: (
+			<>
+				Built a full-stack AI Travel Planning Chatbot using React.js, FastAPI, and Gemini LLMs to generate customized travel itineraries via natural language inputs.
+				<br />
+				Integrated real-time APIs for flights, hotel and weather forecasts to provide accurate, up-to-date travel suggestions and direct booking links reducing the need to switch between multiple platforms.
+				<br />
+				Deployed on Vercel and Render with features like JWT-based authentication, chat history persistence, and interactive itinerary updates, offline itinerary support delivering a seamless, all-in-one planning experience.
+			</>
+		),
+		technologies: [
+			'React.js',
+			'FastAPI',
+			'Gemini LLM',
+			'JWT',
+			'Vercel',
+			'Render',
+			'APIs',
+		],
+	},
+	
+	
+	{
+		title: 'Stock Price Prediction ETL',
+		link: 'https://github.com/aishanee-sinha/Stock-Price-Prediction-ETL',
+		description: (
+			<>
+				Developed a comprehensive ETL pipeline for collecting, processing, and analyzing stock market data.
+				<br />
+				Implemented machine learning models to predict stock price movements using historical data and technical indicators.
+				<br />
+				Automated data workflows for real-time data ingestion and model retraining to maintain prediction accuracy.
+			</>
+		),
+		technologies: [
+			'Python',
+			'ETL',
+			'Machine Learning',
+			'Time Series Analysis',
+			'scikit-learn',
+			'APIs',
+		],
+	},
+	
+	{
+		title: 'Airline Delay Analysis',
+		link: '',
+		description: (
+			<>
+				High-scale big data project processing 31M+ airline records to analyze delay patterns and predictive factors.
+				<br />
+				Leveraged Apache Spark for distributed data processing and AWS S3 for scalable data storage and partitioning.
+				<br />
+				Implemented efficient data pipelines to handle massive datasets while extracting actionable insights from complex aviation data.
+			</>
+		),
+		technologies: [
+			'Apache Spark',
+			'AWS S3',
+			'Big Data',
+			'Python',
+			'Data Engineering',
+			'ETL',
+			'SQL',
+		],
+	},
+	
 ];
 
 const Projects = () => {
