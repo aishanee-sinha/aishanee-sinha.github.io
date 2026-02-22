@@ -126,6 +126,95 @@ const projects = [
 			'Fine-tuning',
 		],
 	},
+	{
+		title: 'Multi-Modal AI Chatbot for Health Insights',
+		link: 'https://github.com/aishanee-sinha/Multimodal-RAG-Chatbot',
+		description: (
+			<>
+				Developed a context-aware multimodal AI system leveraging LLMs and Pinecone vector database to synthesize insights from both text and medical images.
+				<br />
+				Integrated advanced RAG (Retrieval-Augmented Generation) capabilities to enable intelligent analysis and retrieval of medical information.
+				<br />
+				Designed to provide context-aware health recommendations by intelligently processing and connecting textual and visual medical data.
+			</>
+		),
+		technologies: [
+			'LLMs',
+			'Pinecone',
+			'Vector Databases',
+			'Multimodal Processing',
+			'RAG',
+			'Python',
+			'Medical AI',
+		],
+	},
+	{
+		title: 'Adaptive Multi-Modal Brain Tumor Segmentation',
+		link: '',
+		description: (
+			<>
+				Advanced deep learning project focused on segmenting brain tumors from high-dimensional MRI data using complex neural architectures.
+				<br />
+				Implemented meta-learning approaches that significantly outperformed traditional fine-tuned models, achieving over 70% performance improvement on the BraTS 2023 dataset.
+				<br />
+				Conducted sophisticated model evaluation, hyperparameter tuning, and comprehensive error analysis to ensure clinical-grade diagnostic accuracy and clinical applicability.
+			</>
+		),
+		technologies: [
+			'Meta-Learning',
+			'Deep Learning',
+			'PyTorch',
+			'MRI Data',
+			'Medical Imaging',
+			'Neural Networks',
+			'Segmentation',
+			'Model Evaluation',
+		],
+	},
+	{
+		title: 'Airline Delay Analysis',
+		link: '',
+		description: (
+			<>
+				High-scale big data project processing 31M+ airline records to analyze delay patterns and predictive factors.
+				<br />
+				Leveraged Apache Spark for distributed data processing and AWS S3 for scalable data storage and partitioning.
+				<br />
+				Implemented efficient data pipelines to handle massive datasets while extracting actionable insights from complex aviation data.
+			</>
+		),
+		technologies: [
+			'Apache Spark',
+			'AWS S3',
+			'Big Data',
+			'Python',
+			'Data Engineering',
+			'ETL',
+			'SQL',
+		],
+	},
+	{
+		title: 'Emotion-Aware Transformer-Based Text-to-Speech System',
+		link: '',
+		description: (
+			<>
+				Developed an end-to-end emotion-conditioned TTS pipeline from scratch using PyTorch and a sophisticated Transformer architecture.
+				<br />
+				Implemented custom text-to-mel spectrogram generation and Griffin-Lim based waveform inversion pipeline for high-quality audio synthesis.
+				<br />
+				Integrated emotion conditioning to enable expressive speech synthesis that adapts tone and prosody based on emotional context.
+			</>
+		),
+		technologies: [
+			'PyTorch',
+			'Transformers',
+			'Text-to-Speech',
+			'Deep Learning',
+			'Audio Processing',
+			'Waveform Generation',
+			'NLP',
+		],
+	},
 ];
 
 const Projects = () => {
